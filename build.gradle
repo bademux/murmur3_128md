@@ -1,0 +1,14 @@
+apply plugin: 'java'
+
+group = 'com.googlecode.murmurmd'
+version = '0.1'
+
+description = "Murmur3_128MessageDigest"
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.11'
+}
